@@ -7,7 +7,7 @@ where the user will be given a variety of options to progress in the game, such 
 - fighting monsters 
 - recruiting new characters
 
-The end goal of the game would be to destroy all the monsters and save the world. 
+The end goal of the game would be to destroy all the monsters and beat the game. 
 
 ## Users and Interest
 
@@ -46,7 +46,7 @@ heroes in my collection (hero list)
 - As a user, I want to save the heroes in my collection 
 - As a user, I want to be able to load my heroes from file
 
-##Phase 4: Task 2
+## Phase 4: Task 2
 I chose the test and design a robust class option. In my Party class,
 I added three exceptions: HeroAbsentException in the removeHeroFromParty method
 which throws an exception when the input hero is not in the party, 
@@ -54,7 +54,7 @@ HeroDuplicateException in the addHeroToParty method which throws an exception wh
 the hero added is already in the party, and PartyFullException, which throws an 
 exception when the party already contains three heroes. 
 
-##Phase 4: Task 3
+## Phase 4: Task 3
 If I had more time, there are a few things that I could refactor. First, since Party contains 
 two lists of Hero that do different functions, for the idea of cohesion,I would separate the two 
 lists into different classes, for example Party and AllHeroes, where Party contains one list of 
