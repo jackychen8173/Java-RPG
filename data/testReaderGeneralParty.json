@@ -1,0 +1,22 @@
+{
+  "Heroes": [
+    {
+      "totalHP": 20,
+      "level": 1,
+      "attack": 5,
+      "experienceRequired": 10,
+      "name": "Hero1",
+      "type": "Melee",
+      "experience": 0
+    },
+    {
+      "totalHP": 20,
+      "level": 1,
+      "attack": 5,
+      "experienceRequired": 10,
+      "name": "Hero2",
+      "type": "Ranged",
+      "experience": 0
+    }
+  ]
+}
